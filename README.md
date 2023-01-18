@@ -1,0 +1,3 @@
+# colortest
+# hadatest
+# hada

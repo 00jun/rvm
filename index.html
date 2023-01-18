@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" href="./css/style.css" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HEILENDE BAUM</title>
+        <script src="javascript/main.js"></script>
+        <script src="javascript/hangul.js"></script>
+        <script src="javascript/colorset.js"></script>
+        <script src="javascript/colorimg.js"></script>
+    </head>
+    <body>
+        <div class="contents">
+            <form name="frm">
+                    <div><img id="logo" src="./img/hada.svg"></div>
+                    <div class="user_input">
+                        <div id="title">Who are you?</div>[<input id="name" type="text" value="이름"/>:<input id="date" type="date" value="1999-01-01"/>]
+                    </div>
+
+                    <table class="color_result">
+                        <tr>
+                        <td class="colorname">올해</td>
+                        <td class="colorname">인생여정</td>
+                        <td class="colorname">성장</td>
+                        <td class="colorname">운명</td>
+                        </tr>
+                        <tr>
+                        <td><img id="today_img" src="./img/0.png"></td>
+                        <td><img id="life_img" src="./img/0.png"></td>
+                        <td><img id="grow_img" src="./img/0.png"></td>
+                        <td><img id="destiny_img" src="./img/0.png"></td>
+                        </tr>
+                        <tr>
+                        <td class="colorname">소울</td>
+                        <td class="colorname">페르소나</td>
+                        <td class="colorname">완성</td>
+                        <td class="colorname">생일</td>
+                        </tr>
+                        <tr>
+                        <td><img id="soul_img" src="./img/0.png"></td>
+                        <td><img id="persona_img" src="./img/0.png"></td>
+                        <td><img id="complete_img" src="./img/0.png"></td>
+                        <td><img id="birth_img" src="./img/0.png"></td>
+                        </tr>
+                    </table>
+
+                    <button id="submit" onclick="start();">컬러 알아보기</button>
+                    <div id="footer">
+                        <p>Copyright © 2019 HEILENDE BAUM CO.LTD All rights resrtved.</p>
+                        <p id="notice">상기 저작권에 대한 사항은 (주) 하이렌데 바움에 있으며 사전 승인 없이</p>
+                        <p id="notice">무단전재 및 재배포 경우,관령 법령 및 규정에 의거 제재를 받을 수 있습니다.</p>
+                        <p>특허 등록 번호 : 10-2022-0050793, 10-2022-0101163</p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
