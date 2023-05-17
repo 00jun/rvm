@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'SEBANG_Gothic_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SEBANG_Gothic_Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @media all and (min-width:1280px) { 
     body {
         display : flex;
@@ -6,9 +13,11 @@
     }
 
     #title {
+        margin-top: 30px;
         width: 100%;
         font-size: 80pt;
-        color: #374D9A;
+        color: #F1C539;
+        font-family: 'SEBANG_Gothic_Bold';
     }
 
     .contents {
@@ -17,8 +26,8 @@
     
     #logo {
         float: left;
-        margin-left: 200px;
-        width: 250px;
+        margin-left: 130px;
+        width: 200px;
     }
 
     .user_input {
@@ -33,12 +42,14 @@
 
     #name {
         width: 240px;
-        font-size: 60pt;
+        font-size: 55pt;
+        font-family: 'SEBANG_Gothic_Bold';
     }
 
     #date {
         width: 300px;
         font-size: 20pt;
+        font-family: 'SEBANG_Gothic_Bold';
     }
 
     table {
@@ -46,13 +57,16 @@
     }
     
     .colorname {
-        background-color: #374D9A;
+        height: 50px;
+        background-color: #B99318;
         color: white;
         font-size: 24pt;
+        font-family: 'SEBANG_Gothic_Bold';
+        text-shadow: 2px 2px 2px gray;
     }
 
     .color_result {
-        margin-top: 60px;
+        margin-top: 20px;
         width: 100%;
     }
 
@@ -60,15 +74,22 @@
         width: 160px;
     }
 
+    .color_result td {
+        border: 5px solid white;
+        border-radius: 10px;
+    }
+
     #submit {
         border: none;
-        background-color: #e8eaf0;
-        color: #374D9A;
+        background-color: #F1C539;
+        color: white;
         width: 1200px;
-        height: 40px;
+        height: 60px;
         border-radius: 10px;
-        font-size: 18pt;
+        font-size: 24pt;
         margin-top: 20px;
+        text-shadow: 2px 2px 2px gray;
+        font-family: 'SEBANG_Gothic_Bold';
     }
 
     #footer {
@@ -84,17 +105,23 @@
 }
 
 /* 노트북 & 테블릿 가로 (해상도 1024px ~ 1279px)*/ 
-@media all and (min-width:1024px) and (max-width:1279px) { 
+@media all and (min-width:1024px) and (max-width:1279px) {
     body {
         display : flex;
         justify-content: center;
         align-items : center;
     }
 
+    form {
+        width: 1000px;
+    }
+
     #title {
+        margin-top: 120px;
         width: 100%;
-        font-size: 80pt;
-        color: #374D9A;
+        font-size: 70pt;
+        color: #F1C539;
+        font-family: 'SEBANG_Gothic_Bold';
     }
 
     .contents {
@@ -103,8 +130,8 @@
     
     #logo {
         float: left;
-        margin-left: 200px;
-        width: 250px;
+        margin-left: 100px;
+        width: 180px;
     }
 
     .user_input {
@@ -115,6 +142,7 @@
     .user_input input{
         text-align: center;
         border: none;
+        font-family: 'SEBANG_Gothic_Bold';
     }
 
     #name {
@@ -125,6 +153,7 @@
     #date {
         width: 300px;
         font-size: 20pt;
+        font-family: 'SEBANG_Gothic_Bold';
     }
 
     table {
@@ -132,9 +161,12 @@
     }
     
     .colorname {
-        background-color: #374D9A;
+        height: 60px;
+        background-color: #B99318;
         color: white;
-        font-size: 24pt;
+        font-size: 30pt;
+        font-family: 'SEBANG_Gothic_Bold';
+        text-shadow: 2px 2px 2px gray;
     }
 
     .color_result {
@@ -148,13 +180,15 @@
 
     #submit {
         border: none;
-        background-color: #e8eaf0;
-        color: #374D9A;
-        width: 1200px;
-        height: 40px;
+        background-color: #F1C539;
+        color: white;
+        width: 100%;
+        height: 80px;
         border-radius: 10px;
-        font-size: 18pt;
+        font-size: 34pt;
         margin-top: 20px;
+        text-shadow: 2px 2px 2px gray;
+        font-family: 'SEBANG_Gothic_Bold';
     }
 
     #footer {
@@ -162,9 +196,9 @@
         text-align: center;
         font-size: 11pt;
     }
-
-    #notice {
-        margin: -1pt;
+    .color_result td {
+        border: 5px solid white;
+        border-radius: 10px;
     }
 
 } 
@@ -180,7 +214,7 @@
     #title {
         margin-top: -20px;
         font-size: 34pt;
-        color: #374D9A;
+        color: #F1C539;
     }
 
     .contents {
@@ -235,7 +269,7 @@
     }
     
     .colorname {
-        background-color: #374D9A;
+        background-color: #F1C539;
         color: white;
     }
 
@@ -249,8 +283,8 @@
 
     #submit {
         border: none;
-        background-color: #e8eaf0;
-        color: #374D9A;
+        background-color: #F1C539;
+        color: white;
         width: 300px;
         height: 40px;
         border-radius: 10px;
@@ -273,7 +307,7 @@
 @media all and (min-width:480px) and (max-width:767px) {
     #title {
         font-size: 34pt;
-        color: #374D9A;
+        color: #F1C539;
     }
 
     .contents {
@@ -321,13 +355,13 @@
     }
 
     .corename {
-        background-color: #374D9A;
+        background-color: #F1C539;
         color: white;
         font-size: 14pt;
     }
     
     .colorname {
-        background-color: #374D9A;
+        background-color: #F1C539;
         color: white;
     }
 
@@ -343,8 +377,8 @@
 
     #submit {
         border: none;
-        background-color: #e8eaf0;
-        color: #374D9A;
+        background-color: #F1C539;
+        color: white;
         width: 300px;
         height: 40px;
         border-radius: 10px;
@@ -372,9 +406,10 @@
     }
 
     #title {
-        margin-top: -20px;
+        margin-top: 10px;
         font-size: 34pt;
-        color: #374D9A;
+        color: #F1C539;
+        font-family: 'SEBANG_Gothic_Bold';
     }
 
     .contents {
@@ -386,8 +421,8 @@
     }
     
     #logo {
-        margin-top: -30px;
-        width: 230px;
+        margin-top: 10px;
+        width: 100px;
     }
 
     table {
@@ -402,6 +437,7 @@
     .user_input input{
         text-align: center;
         border: none;
+        font-family: 'SEBANG_Gothic_Bold';
     }
 
     #name {
@@ -429,8 +465,10 @@
     }
     
     .colorname {
-        background-color: #374D9A;
+        background-color: #B99318;
         color: white;
+        font-family: 'SEBANG_Gothic_Bold';
+        font-size: 10pt;
     }
 
     .color_result {
@@ -441,14 +479,20 @@
         width: 70px;
     }
 
+    .color_result td {
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+
     #submit {
         border: none;
-        background-color: #e8eaf0;
-        color: #374D9A;
+        background-color: #F1C539;
+        color: white;
         width: 300px;
         height: 40px;
-        border-radius: 10px;
+        border-radius: 5px;
         font-size: 18pt;
+        font-family: 'SEBANG_Gothic_Bold';
     }
 
     #footer {
