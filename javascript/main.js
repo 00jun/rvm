@@ -45,7 +45,7 @@ let name = "";
 
 function userInfo() {
     name = document.getElementById('name').value;
-    name = name.slice(1, 3);
+    name = name.slice(1, );
     let jumin = document.getElementById('date').value;
     jumin = jumin.split("-");
 
@@ -54,9 +54,6 @@ function userInfo() {
     user_month = jumin[1];
     user_day = jumin[2];
 
-    // 길동 first_name = 길 , second_name = 동
-    first_name = name[0];
-    second_name = name[1];
     // 자모분리 테스트
     jamoCheck(name);
     return [user_year, user_month, user_day];
